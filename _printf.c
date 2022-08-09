@@ -29,6 +29,7 @@ Here:
 			while (j >= 0)
 			{
 				if (m[j].id[0] == format[i] && m[j].id[1] == format[i + 1])
+				{
 					len += m[j].f(args);
 				i = i + 2;
 				goto Here;
